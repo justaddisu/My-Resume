@@ -18,6 +18,6 @@ const countdown = setInterval(() => {
   // If the countdown is over, display a message
   if (distance < 0) {
     clearInterval(countdown);
-    document.getElementById('countdown').innerHTML = 'We are live!';
+    document.getElementById('countdown').innerHTML = 'I will be live soon!';
   }
 }, 1000);
